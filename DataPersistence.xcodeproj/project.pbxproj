@@ -19,6 +19,13 @@
 		D2CB7E051F79E2AA0010423E /* WriteToFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CB7E041F79E2AA0010423E /* WriteToFileVC.m */; };
 		D2CB7E111F7A32D60010423E /* NSArray+DesCription.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CB7E0D1F7A32D60010423E /* NSArray+DesCription.m */; };
 		D2CB7E121F7A32D60010423E /* NSDictionary+DesCription.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CB7E101F7A32D60010423E /* NSDictionary+DesCription.m */; };
+		D2DE96431F8F0CB200E0E050 /* CoreDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE96421F8F0CB200E0E050 /* CoreDataVC.m */; };
+		D2DE96461F8F0CF300E0E050 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2DE96441F8F0CF300E0E050 /* Model.xcdatamodeld */; };
+		D2DE96491F8F0D1200E0E050 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DE96481F8F0D1200E0E050 /* CoreData.framework */; };
+		D2DE96BE1F8F6C5700E0E050 /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE96B71F8F6C5700E0E050 /* Person+CoreDataClass.m */; };
+		D2DE96BF1F8F6C5700E0E050 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE96B91F8F6C5700E0E050 /* Person+CoreDataProperties.m */; };
+		D2DE96C01F8F6C5700E0E050 /* Card+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE96BB1F8F6C5700E0E050 /* Card+CoreDataClass.m */; };
+		D2DE96C11F8F6C5700E0E050 /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DE96BD1F8F6C5700E0E050 /* Card+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,18 @@
 		D2CB7E0E1F7A32D60010423E /* NSDictionary+DesCription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DesCription.h"; sourceTree = "<group>"; };
 		D2CB7E0F1F7A32D60010423E /* NSArray+DesCription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DesCription.h"; sourceTree = "<group>"; };
 		D2CB7E101F7A32D60010423E /* NSDictionary+DesCription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DesCription.m"; sourceTree = "<group>"; };
+		D2DE96411F8F0CB200E0E050 /* CoreDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataVC.h; sourceTree = "<group>"; };
+		D2DE96421F8F0CB200E0E050 /* CoreDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataVC.m; sourceTree = "<group>"; };
+		D2DE96451F8F0CF300E0E050 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D2DE96481F8F0D1200E0E050 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2DE96B61F8F6C5700E0E050 /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		D2DE96B71F8F6C5700E0E050 /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		D2DE96B81F8F6C5700E0E050 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D2DE96B91F8F6C5700E0E050 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D2DE96BA1F8F6C5700E0E050 /* Card+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataClass.h"; sourceTree = "<group>"; };
+		D2DE96BB1F8F6C5700E0E050 /* Card+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataClass.m"; sourceTree = "<group>"; };
+		D2DE96BC1F8F6C5700E0E050 /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D2DE96BD1F8F6C5700E0E050 /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DE96491F8F0D1200E0E050 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +117,7 @@
 				D2CB7DE61F78E7A10010423E /* DataPersistenceTests */,
 				D2CB7DF11F78E7A10010423E /* DataPersistenceUITests */,
 				D2CB7DCB1F78E7A10010423E /* Products */,
+				D2DE96471F8F0D1200E0E050 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,15 +134,11 @@
 		D2CB7DCC1F78E7A10010423E /* DataPersistence */ = {
 			isa = PBXGroup;
 			children = (
-				D2CB7E0F1F7A32D60010423E /* NSArray+DesCription.h */,
-				D2CB7E0D1F7A32D60010423E /* NSArray+DesCription.m */,
-				D2CB7E0E1F7A32D60010423E /* NSDictionary+DesCription.h */,
-				D2CB7E101F7A32D60010423E /* NSDictionary+DesCription.m */,
+				D2DE963E1F8F0A7400E0E050 /* Plist文件 */,
+				D2DE963F1F8F0A9400E0E050 /* 归档解档 */,
+				D2DE96401F8F0B3B00E0E050 /* CoreData */,
 				D2CB7DD61F78E7A10010423E /* Main.storyboard */,
-				D2CB7E031F79E2AA0010423E /* WriteToFileVC.h */,
-				D2CB7E041F79E2AA0010423E /* WriteToFileVC.m */,
-				D2CB7E001F78EB630010423E /* NSKeyedArchiverVC.h */,
-				D2CB7E011F78EB630010423E /* NSKeyedArchiverVC.m */,
+				D2DE963D1F8F0A4E00E0E050 /* Category */,
 				D2CB7DCD1F78E7A10010423E /* Supporting Files */,
 			);
 			path = DataPersistence;
@@ -158,6 +175,61 @@
 				D2CB7DF41F78E7A10010423E /* Info.plist */,
 			);
 			path = DataPersistenceUITests;
+			sourceTree = "<group>";
+		};
+		D2DE963D1F8F0A4E00E0E050 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D2CB7E0F1F7A32D60010423E /* NSArray+DesCription.h */,
+				D2CB7E0D1F7A32D60010423E /* NSArray+DesCription.m */,
+				D2CB7E0E1F7A32D60010423E /* NSDictionary+DesCription.h */,
+				D2CB7E101F7A32D60010423E /* NSDictionary+DesCription.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		D2DE963E1F8F0A7400E0E050 /* Plist文件 */ = {
+			isa = PBXGroup;
+			children = (
+				D2CB7E031F79E2AA0010423E /* WriteToFileVC.h */,
+				D2CB7E041F79E2AA0010423E /* WriteToFileVC.m */,
+			);
+			name = "Plist文件";
+			sourceTree = "<group>";
+		};
+		D2DE963F1F8F0A9400E0E050 /* 归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				D2CB7E001F78EB630010423E /* NSKeyedArchiverVC.h */,
+				D2CB7E011F78EB630010423E /* NSKeyedArchiverVC.m */,
+			);
+			name = "归档解档";
+			sourceTree = "<group>";
+		};
+		D2DE96401F8F0B3B00E0E050 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE96411F8F0CB200E0E050 /* CoreDataVC.h */,
+				D2DE96421F8F0CB200E0E050 /* CoreDataVC.m */,
+				D2DE96441F8F0CF300E0E050 /* Model.xcdatamodeld */,
+				D2DE96B61F8F6C5700E0E050 /* Person+CoreDataClass.h */,
+				D2DE96B71F8F6C5700E0E050 /* Person+CoreDataClass.m */,
+				D2DE96B81F8F6C5700E0E050 /* Person+CoreDataProperties.h */,
+				D2DE96B91F8F6C5700E0E050 /* Person+CoreDataProperties.m */,
+				D2DE96BA1F8F6C5700E0E050 /* Card+CoreDataClass.h */,
+				D2DE96BB1F8F6C5700E0E050 /* Card+CoreDataClass.m */,
+				D2DE96BC1F8F6C5700E0E050 /* Card+CoreDataProperties.h */,
+				D2DE96BD1F8F6C5700E0E050 /* Card+CoreDataProperties.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		D2DE96471F8F0D1200E0E050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2DE96481F8F0D1200E0E050 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +366,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2CB7DD51F78E7A10010423E /* ViewController.m in Sources */,
+				D2DE96C01F8F6C5700E0E050 /* Card+CoreDataClass.m in Sources */,
 				D2CB7E111F7A32D60010423E /* NSArray+DesCription.m in Sources */,
 				D2CB7DD21F78E7A10010423E /* AppDelegate.m in Sources */,
+				D2DE96431F8F0CB200E0E050 /* CoreDataVC.m in Sources */,
+				D2DE96BE1F8F6C5700E0E050 /* Person+CoreDataClass.m in Sources */,
+				D2DE96BF1F8F6C5700E0E050 /* Person+CoreDataProperties.m in Sources */,
 				D2CB7E121F7A32D60010423E /* NSDictionary+DesCription.m in Sources */,
+				D2DE96461F8F0CF300E0E050 /* Model.xcdatamodeld in Sources */,
 				D2CB7E051F79E2AA0010423E /* WriteToFileVC.m in Sources */,
+				D2DE96C11F8F6C5700E0E050 /* Card+CoreDataProperties.m in Sources */,
 				D2CB7E021F78EB630010423E /* NSKeyedArchiverVC.m in Sources */,
 				D2CB7DCF1F78E7A10010423E /* main.m in Sources */,
 			);
@@ -449,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DataPersistence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.DataPersistence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DataPersistence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.DataPersistence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +632,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2DE96441F8F0CF300E0E050 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2DE96451F8F0CF300E0E050 /* Model.xcdatamodel */,
+			);
+			currentVersion = D2DE96451F8F0CF300E0E050 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D2CB7DC21F78E7A00010423E /* Project object */;
 }
