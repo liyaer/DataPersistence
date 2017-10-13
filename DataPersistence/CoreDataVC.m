@@ -65,9 +65,14 @@
     NSManagedObject *person = [NSEntityDescription insertNewObjectForEntityForName:@"Person" inManagedObjectContext:_context];
     [person setValue:@"hosea" forKey:@"name"];
     [person setValue:[NSNumber numberWithInt:22] forKey:@"age"];
-//    Person *person = [NSEntityDescription insertNewObjectForEntityForName:@"Person" inManagedObjectContext:_context];
-//    person.name = @"hoGGGGGG";
-//    person.age = 22;
+    /*
+     *   如果生成了实体对应的模型文件，那么可以像模型一样来调用实体属性。（注意：需要在Model.xcdatamodeld中将实体的Codegen属性设置为Manual\None,否则会出现编译错误）当然继续通过上面的方式使用实体也是可以的，不过一般我们都会采用下面这种写法，调用方便
+        
+         Person *person = [NSEntityDescription insertNewObjectForEntityForName:@"Person" inManagedObjectContext:_context];
+         person.name = @"hoGGGGGG";
+         person.age = 22;
+
+     */
     //1.2,传入上下文，创建一个Card实体对象
     NSManagedObject *card = [NSEntityDescription insertNewObjectForEntityForName:@"Card" inManagedObjectContext:_context];
     [card setValue:@"4414241933432" forKey:@"no"];
